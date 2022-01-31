@@ -316,24 +316,8 @@ var quotes =
 
 
 
-function rqm() {
-    var quotesFin = ['Jokainen tsänssi on mahdollisuus', 'Muutan kööpenhaminaan ja hommaan ruotsin passin', 'Siellä ylhäällä kaikki on ihan up yours']
-    var max = 2;
-    var min = 0;
-    var result = Math.floor(Math.random() * (max - min + 1) + min)
-    console.log(quotesFin[result])
-    document.getElementById('outPut').innerHTML = (quotesFin[result])
-    
-    var colours = ['blue','red','green','fuchsia', 'purple', 'aqua','lime', 'salmon', 'yellow']
-    var max = 8;
-    var min = 0;
-    var resultOfMath = Math.floor(Math.random() * (max - min + 1) + min)
-    console.log(colours[resultOfMath])
-    document.getElementById('outPut').style.color=(colours[resultOfMath]);
 
-}
-
-function rqm2() {
+function button() {
     var max = 99;
     var min = 0;
     var result = Math.floor(Math.random() * (max - min + 1) + min)
